@@ -24,8 +24,8 @@ public class ApiController {
     //      return apiService.getOneStudent(studentId);
     // }
 
-    @GetMapping("/")
-    public List<Student> getAllStudents() {
-        return apiService.getAllStudents();
-    }
+    // @GetMapping("/")
+    // public List<Student> getAllStudents() {
+    //     return apiService.getAllStudents();
+    // }
 }
